@@ -1,0 +1,31 @@
+{
+    "app.title.profile": "Профиль",
+    "app.title.categories": "Категории",
+    "app.title.record": "Новая запись",
+    "app.title.register": "Регистрация",
+    "app.title.detail": "Детали",
+    "app.title.history": "История",
+    "app.title.home": "Счет",
+    "app.title.login": "Авторизация",
+    "app.title.planning": "Планирование",
+
+
+    "profile.title":  "Профиль",
+    "profile.name":  "Имя",
+    "profile.error.enter-name":  "Введите имя",
+    "profile.locale.english":  "Английский",
+    "profile.locale.russian":  "Русский",
+    "profile.refresh":  "Обновить",
+    
+    "menu.bill": "Счет",
+    "menu.categories": "Категории",
+    "menu.planning": "Планирование",
+    "menu.history": "История",
+
+    "bill.title": "Счет",
+    "bill.bill-in-dollars": "Счет в валюте",
+    "bill.exchange-rates": "Курс валют",
+    "bill.currency": "Валюта",
+    "bill.rate": "Курс",
+    "bill.date": "Дата"
+}

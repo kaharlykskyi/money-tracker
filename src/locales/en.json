@@ -1,0 +1,30 @@
+{
+    "app.title.profile": "Profile",
+    "app.title.categories": "Categories",
+    "app.title.record": "New record",
+    "app.title.register": "Registration",
+    "app.title.detail": "Details",
+    "app.title.history": "History",
+    "app.title.home": "Your bill",
+    "app.title.login": "Login",
+    "app.title.planning": "Planning",
+
+    "profile.title":  "Profile",
+    "profile.name":  "Name",
+    "profile.error.enter-name":  "Enter your name",
+    "profile.locale.english":  "English",
+    "profile.locale.russian":  "Russian",
+    "profile.refresh":  "Update",
+
+    "menu.bill": "Bill",
+    "menu.categories": "Categories",
+    "menu.planning": "Planning",
+    "menu.history": "History",
+
+    "bill.title": "Your bill",
+    "bill.bill-in-dollars": "Bill in currency",
+    "bill.exchange-rates": "Currency exchange",
+    "bill.currency": "Currency",
+    "bill.rate": "Rate",
+    "bill.date": "Date"
+}

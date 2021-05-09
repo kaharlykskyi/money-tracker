@@ -36,6 +36,11 @@
 <script>
 export default {
   name: "Detail",
+  metaInfo() {
+    return {
+      title: this.$title('app.title.detail'),
+    }
+  },
   data: () => ({
     loading: true,
     record: null,

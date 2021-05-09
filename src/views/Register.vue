@@ -85,6 +85,11 @@ import Loader from "../components/app/Loader";
 
 export default {
   name: "Register",
+  metaInfo() {
+    return {
+      title: this.$title('app.title.register'),
+    }
+  },
   components: {Loader},
   data: () => ({
     name: '',

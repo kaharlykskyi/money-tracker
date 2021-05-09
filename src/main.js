@@ -7,9 +7,12 @@ import router from './router'
 import store from './store'
 import dateFilter from "@/filters/date.filter";
 import currencyFilter from "@/filters/currency.filter";
+import localizeFilter from "@/filters/localize.filter";
 import tooltipDirective from "@/directives/tooltip.directive";
 import messagePlugin from "@/utils/message.plugin";
+import titlePlugin from "@/utils/title.plugin";
 import Loading from "@/components/app/Loading";
+import VueMeta from 'vue-meta'
 import 'materialize-css/dist/js/materialize.min';
 
 import firebase from 'firebase/app'
@@ -20,9 +23,12 @@ Vue.config.productionTip = false
 
 Vue.filter('date', dateFilter);
 Vue.filter('currency', currencyFilter);
+Vue.filter('localize', localizeFilter);
 Vue.directive('tooltip', tooltipDirective)
 Vue.use(Vuelidate)
+Vue.use(VueMeta)
 Vue.use(messagePlugin)
+Vue.use(titlePlugin)
 Vue.component('Loading', Loading)
 Vue.component('Paginate', Paginate)
 

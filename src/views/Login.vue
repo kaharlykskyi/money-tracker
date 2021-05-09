@@ -67,6 +67,11 @@ import Loader from "../components/app/Loader";
 
 export default {
   name: "Login",
+  metaInfo() {
+    return {
+      title: this.$title('app.title.login'),
+    }
+  },
   components: {Loader},
   data: () => ({
     isLoading: false,

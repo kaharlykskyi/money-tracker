@@ -94,6 +94,11 @@ import {mapGetters} from 'vuex';
 
 export default {
   name: "Record",
+  metaInfo() {
+    return {
+      title: this.$title('app.title.record'),
+    }
+  },
   data: () => ({
     loading: true,
     categories: [],
